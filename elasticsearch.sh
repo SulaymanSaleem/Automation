@@ -18,6 +18,6 @@ echo "vm.max_map_count=262144" >> /etc/sysctl.conf
 sysctl -w vm.max_map_count=262144
 git clone https://github.com/SulaymanSaleem/elastic-cluster
 
-#cd elastic-cluster
+cd elastic-cluster
 
-#sudo docker-compose up -d
+./run.sh
